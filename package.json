@@ -1,0 +1,22 @@
+{
+  "name": "jdy-customer-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev",
+    "dev:network": "slidev --remote",
+    "build": "slidev build",
+    "export:pdf": "slidev export --output jdy-customer-presentation.pdf",
+    "export:pptx": "slidev export --format pptx --with-clicks false --output jdy-customer-presentation.pptx"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.18.0",
+    "@slidev/theme-default": "latest",
+    "playwright-chromium": "latest",
+    "vue": "latest"
+  },
+  "allowScripts": {
+    "playwright-chromium@1.61.1": true
+  }
+}
